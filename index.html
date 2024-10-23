@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fabian Hug - Developer Relations Engineer and Advisor specializing in Web3/Crypto. Founder of devrel.directory and Resource Lead at DevRel Uni.">
+    <title>Fabian Hug - Developer Relations in Web3/Crypto</title>
+    <style>
+        body {
+            font-family: 'Roboto', monospace;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            margin-top: 0;
+            color: #b0b0b0;
+        }
+        .bio {
+            margin-bottom: 2rem;
+        }
+        .sections {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .section {
+            flex-basis: 100%;
+            margin-bottom: 2rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #b0b0b0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: #e0e0e0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        .social-links a {
+            margin: 0 0.5rem;
+            font-size: 1.2rem;
+        }
+        .projects-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .projects-table th,
+        .projects-table td {
+            padding: 0.6rem;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+
+        .projects-table th {
+            background-color: #2a2a2a;
+            font-weight: bold;
+            color: #b0b0b0;
+        }
+
+        .projects-table tr:hover {
+            background-color: #2a2a2a;
+        }
+
+        .projects-table a {
+            font-weight: bold;
+        }
+
+        .projects-table .project-name {
+            width: 25%;
+        }
+
+        .projects-table .project-role {
+            width: 20%;
+        }
+
+        .projects-table .project-description {
+            width: 55%;
+        }
+
+        @media (max-width: 600px) {
+            .projects-table {
+                font-size: 0.8rem;
+            }
+
+            .projects-table th,
+            .projects-table td {
+                padding: 0.4rem;
+            }
+        }
+
+        .dark-mode-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: #e0e0e0;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        body.light-mode {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        body.light-mode a {
+            color: #333;
+        }
+
+        body.light-mode .projects-table th {
+            background-color: #e0e0e0;
+        }
+
+        body.light-mode .projects-table tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        body.light-mode .dark-mode-toggle {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <button class="dark-mode-toggle" aria-label="Toggle dark mode">🌜</button>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Fabian Hug</h1>
+                <h2>Developer Relations in Web3/Crypto</h2>
+            </div>
+            <img src="./profile_img.jpg" alt="Fabian Hug" class="profile-image" loading="lazy">
+        </header>
+        
+        <main>
+            <section class="bio">
+                <p>
+                    👋 gm gm, I'm Fabian aka 0xfabs.
+                </p>
+                <p>
+                    I'm a Developer Relations Engineer and Advisor with a strong background in computer science, blockchain, and Web3 technologies.
+                </p>
+                <p>
+                    Currently building devrel.directory and leading resources at DevRel Uni. Previously, I worked as a Developer Advocate and Integrations Engineer at Staking Rewards, while also specializing in building decentralized applications, creating smart contracts, and developing engaging user experiences that leverage blockchain technology.
+                </p>
+            </section>
+            
+            <div class="sections">
+                <section class="section">
+                    <h3>Current Projects</h3>
+                    <table class="projects-table">
+                        <tr>
+                            <th class="project-name">Project</th>
+                            <th class="project-role">Role</th>
+                            <th class="project-description">Description</th>
+                        </tr>
+                        <tr>
+                            <td class="project-name"><a href="https://devrel.directory" target="_blank">> devrel.directory</a></td>
+                            <td class="project-role">Founder</td>
+                            <td class="project-description">Comprehensive resource for Developer Relations, offering tools, guides, and community updates.</td>
+                        </tr>
+                        <tr>
+                            <td class="project-name"><a href="https://www.devreluni.com/" target="_blank">> DevRel Uni</a></td>
+                            <td class="project-role">Resource Lead</td>
+                            <td class="project-description">Top-tier DevRel education trusted by 250+ students across 50+ countries.</td>
+                        </tr>
+                        <tr>
+                            <td class="project-name"><a href="https://www.tempestfinance.xyz/" target="_blank">> Tempest Finance</a></td>
+                            <td class="project-role">Advisor</td>
+                            <td class="project-description">Quantitative Research Firm building Decentralized Liquidity Management on Ambient Finance.</td>
+                        </tr>
+                        <tr>
+                            <td class="project-name"><a href="#">> void labs</a></td>
+                            <td class="project-role">Founder</td>
+                            <td class="project-description">Research-driven advisory lab offering strategic and technical guidance, network access, and investments in innovative protocols.</td>
+                        </tr>
+                    </table>
+                </section>
+                
+                <section class="section">
+                    <h3>Tech Interests</h3>
+                    <ul>
+                        <li>> Developer Relations</li>
+                        <li>> Blockchain & Web3</li>
+                        <li>> AI and its transformative potential</li>
+                        <li>> DeFi and self-sovereign financial services</li>
+                        <li>> Data Engineering</li>
+                        <li>> Memes and Music/Digital Culture</li>
+                    </ul>
+                </section>
+                    
+                <section class="section">
+                    <h3>Publications|Research</h3>
+                    <ul>
+                        <li>> "Developing Successful Developer Relations Programs in Blockchain Data Companies: A Metrics-Driven Approach"</li>
+                        <li>> "IoT data stream using distributed ledger technology IOTA/Tangle"</li>
+                        <li>> "Global regulations of the use of blockchain and cryptocurrencies - An overview of different national regulatory approaches Blockchain-based payment systems"</li>
+                        <li>> "Blockchain and Business Continuity / Disaster Recovery"</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        
+        <footer class="social-links">
+            <a href="https://github.com/fabianhug" target="_blank" aria-label="GitHub Profile">GitHub</a>
+            <a href="https://twitter.com/0xfabs" target="_blank" aria-label="Twitter Profile">Twitter</a>
+            <a href="https://linkedin.com/in/fabian-hug" target="_blank" aria-label="LinkedIn Profile">LinkedIn</a>
+        </footer>
+
+    <script>
+        const darkModeToggle = document.querySelector('.dark-mode-toggle');
+        const body = document.body;
+
+        // Check for saved user preference, if any, on load
+        if (localStorage.getItem('darkMode') === 'light') {
+            body.classList.add('light-mode');
+            darkModeToggle.textContent = '🌞';
+        } else {
+            // Ensure dark mode is the default
+            localStorage.setItem('darkMode', 'dark');
+            darkModeToggle.textContent = '🌜';
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('light-mode');
+            if (body.classList.contains('light-mode')) {
+                darkModeToggle.textContent = '🌞';
+                localStorage.setItem('darkMode', 'light');
+            } else {
+                darkModeToggle.textContent = '🌜';
+                localStorage.setItem('darkMode', 'dark');
+            }
+        });
+    </script>
+</body>
+</html>
